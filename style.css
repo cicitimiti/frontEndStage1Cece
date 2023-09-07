@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gainsboro;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    min-width: 30%;
+    /* min-height: 70%;*/
+    box-shadow: 4px 5px brown;
+    border: 2px solid snow;
+    border-radius: 5px;
+    margin-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+    justify-content: center; 
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+h1{
+    font-size: 50px;
+    color: rgb(72, 2, 2);
+}
+img{
+   height: 200px;
+   width: 200px;
+   border-radius: 20%;
+}
+
+.day{
+    font-size: 20px;
+    font-weight: bold;
+    color: brown;
+}
+.clock {
+    display: flex;
+    padding-left: 60px;
+}
+
+.clock div {
+    margin: 5px; 
+    position: relative;
+}
+
+.clock span {
+    width: 70px;
+    height: 50px;
+    background: rgb(83, 65, 41);
+    opacity: .8;
+    color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.clock .text {
+    height: 30px;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background: rgb(77, 44, 44);
+    opacity: .8;
+}
+
+.clock #ampm {
+    bottom: 0;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    font-size: 20px;
+    background: brown;
+}
+
+.track{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(81, 22, 22);
+    padding-bottom: 20px;
+}
+a{
+    width: 60px;
+    height: 20px;
+    border: 2px solid rgb(20, 18, 18);
+    color: white;
+    background-color: brown;
+    text-decoration: none;
+    padding: 10px;
+}
+a:hover{
+    background-color: rgb(86, 3, 3);
+}
